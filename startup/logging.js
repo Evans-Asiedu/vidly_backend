@@ -1,10 +1,12 @@
 const winston = require("winston");
+const { colorize } = require("winston/lib/winston/config");
 require("winston-mongodb");
 require("express-async-errors");
 
 module.exports = function () {
   // for handling unhandle and uncaught exceptions
   winston.handleExceptions(
+    new winston.transports.Console({ colorize: true, prettyPrint: true }),
     new winston.transports.File({ filename: "uncaughtExceptions.log" })
   );
 
