@@ -8,12 +8,20 @@ require("./startup/db")();
 require("./startup/config")();
 require("./startup/validation")();
 
-const port = process.env.PORT || 3001;
-const server = app.listen(port, () =>
-  winston.info(`Listening on port ${port}...`)
-);
+// const port = process.env.PORT || 3000;
+// const server = app.listen(port, () =>
+//   winston.info(`Listening on port ${port}...`)
+// );
 
-module.exports = server;
+const port = process.env.PORT || 3000;
+
+let server;
+
+if (!module.parent) {
+  server = app.listen(port, () => winston.info(`Listening on port ${port}...`));
+}
+
+module.exports = { app, server };
 
 /*
 const genres = [
