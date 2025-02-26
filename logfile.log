@@ -37,3 +37,27 @@
 {"level":"info","message":"Connected to mongodb://localhost/vidlydb...","timestamp":"2025-02-25T13:15:17.549Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2025-02-25T13:22:40.150Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidlydb_test...","timestamp":"2025-02-25T13:22:40.181Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2025-02-25T13:23:12.568Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidlydb_tests...","timestamp":"2025-02-25T13:23:12.599Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidlydb_tests...","timestamp":"2025-02-25T14:21:49.454Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2025-02-25T15:01:47.462Z"}
+{"message":"could not get the generes","stack":"Error: could not get the generes\n    at C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\routes\\genres.js:9:9\n    at C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\node_modules\\express-async-errors\\index.js:17:17\n    at Layer.handle [as handle_request] (C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\pc\\Documents\\Node\\vidly-endpoint\\node_modules\\express\\lib\\router\\index.js:286:9","level":"error","timestamp":"2025-02-25T15:01:48.114Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidlydb_tests...","timestamp":"2025-02-25T15:01:48.324Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2025-02-25T15:14:41.760Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidlydb_tests...","timestamp":"2025-02-25T15:14:41.835Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2025-02-25T15:14:55.650Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidlydb_tests...","timestamp":"2025-02-25T15:14:55.706Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2025-02-25T15:17:35.908Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidlydb_tests...","timestamp":"2025-02-25T15:17:35.939Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2025-02-25T15:18:15.313Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidlydb_tests...","timestamp":"2025-02-25T15:18:15.352Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2025-02-25T15:18:45.017Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidlydb_tests...","timestamp":"2025-02-25T15:18:45.053Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2025-02-25T15:20:11.919Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidlydb_tests...","timestamp":"2025-02-25T15:20:11.955Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2025-02-25T15:22:24.224Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidlydb_tests...","timestamp":"2025-02-25T15:22:24.257Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2025-02-25T15:28:42.102Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidlydb_tests...","timestamp":"2025-02-25T15:28:42.160Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2025-02-25T15:32:39.131Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidlydb_tests...","timestamp":"2025-02-25T15:32:39.174Z"}
