@@ -69,4 +69,12 @@ describe("/api/returns", () => {
 
     expect(res.status).toBe(400);
   });
+
+  it("should return 400 if no rental found for the customer/movie", async () => {
+    await Rental.remove({});
+
+    const res = await exec();
+
+    expect(res.status).toBe(404);
+  });
 });
