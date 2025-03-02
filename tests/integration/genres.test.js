@@ -12,7 +12,7 @@ describe("/api/genres", () => {
 
   afterEach(async () => {
     if (server) {
-      await server.close();
+      server.close();
     }
     await Genre.remove({});
   });
