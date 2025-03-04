@@ -46,14 +46,14 @@ Vidly Backend is a web-based movie management API built using **Node.js**, **Exp
 ## Project Structure
 
 vidly-backend/
-│
-├── models/         # Mongoose models for database schema
-├── routes/         # API routes for movies, users, and genres
-├── middleware/     # Authentication and error handling middleware
-├── config/         # Configuration files and environment variables
-├── startup/        # Individual files for starting the application
-├── tests/          # Contains unit and integration test codes 
-├── index.js        # Main server entry point
-└── package.json    # Project dependencies and scripts
+
+  models/         # Mongoose models for database schema
+  routes/         # API routes for movies, users, and genres
+  middleware/     # Authentication and error handling middleware
+  config/         # Configuration files and environment variables
+  startup/        # Individual files for starting the application
+  tests/          # Contains unit and integration test codes 
+  index.js        # Main server entry point
+  package.json    # Project dependencies and scripts
 
    
