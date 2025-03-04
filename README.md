@@ -28,5 +28,32 @@ Vidly Backend is a web-based movie management API built using **Node.js**, **Exp
    git clone https://github.com/Evans-Asiedu/vidly_backend.git
    cd vidly_backend
    npm install
+   set vidly_jwtPrivateKey=your_jwt_secret
    node index.js
+
+## API Endpoints
+
+   Method	 Endpoint	 Description
+- **GET	/api/movies**	   Retrieve all movies
+- **POST	/api/movies**	   Add a new movie
+- **GET	/api/movies/:id**	Retrieve a specific movie
+- **PUT	/api/movies/:id**	Update movie details
+- **DELETE	/api/movies/:id**	Delete a movie
+- **GET	/api/genres**	   Retrieve all genres
+- **POST	/api/users/register**	Register a new user
+- **POST	/api/users/login**	Authenticate user and get token
+
+## Project Structure
+
+vidly-backend/
+│
+├── models/         # Mongoose models for database schema
+├── routes/         # API routes for movies, users, and genres
+├── middleware/     # Authentication and error handling middleware
+├── config/         # Configuration files and environment variables
+├── startup/        # Individual files for starting the application
+├── tests/          # Contains unit and integration test codes 
+├── index.js        # Main server entry point
+└── package.json    # Project dependencies and scripts
+
    
